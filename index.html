@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavna</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="/JS/index.js">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lora&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1e272392fe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+           <div id="con">
+            <nav>
+                <!-- <img src="/img/ncwrhedk.png" alt="logo" class="logo"> -->
+                <h3><span>B</span>verma</h3>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skill</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+           </div>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Bhavna Verma</span> <br>From PinkCity</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- --------about---------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/img/smpicss-removebg-preview.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Highly motivated and skilled Full Stack Web Developer blending a background in Electrical Engineering with a passion for creating seamless,
+                         visually appealing web applications. Proficient in a wide range of technologies, including HTML, CSS, JavaScript,
+                          Bootstrap for frontend, and Node.js, Next.js, and MongoDB for backend development.
+                           Experienced in React, Express.js, and Git for efficient development workflows. 
+                           Committed to delivering innovative and user-friendly web solutions through continuous
+                            learning and adaptation to emerging technologies.
+                    </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front-end Developers</span><br>Design Front-end Web Application</li>
+                        <li><span>Back-end Developers</span><br>Design Back-end Web Application by Node.js, Next.js, and MongoDB</li>
+                        <!-- <li><span>Python Developers</span><br>Design Django Web Application</li> -->
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>June,2022</span><br>Executive</li>
+                        <li><span>Internship</span><br>Full Stack Web Developer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022</span><br>B.Tech, Jaipur Engineering College</li>
+                        <li><span>2018</span><br>Intermediate, Millenium Senior Secondary School</li>
+                        <li><span>2016</span><br>Matriculation, Popular English Secondary School</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  <div id="skillss">
+    <div class="container">
+        <h1>My Skills</h1>
+        <div class="skillss">
+            <h2>HTML</h2>
+            <div class="progress-bars">
+                <div class="html"><span>90%</span></div>
+            </div>
+            <h2>CSS</h2>
+            <div class="progress-bars">
+                <div class="css"><span>78%</span></div>
+            </div>
+            <h2>JAVASCRIPT</h2>
+            <div class="progress-bars">
+                <div class="javascript"><span>60%</span></div>
+            </div>
+            <h2>REACT</h2>
+            <div class="progress-bars">
+                <div class="react"><span>85%</span></div>
+            </div>
+        </div>
+    </div>
+  </div>  
+<!-- -----------------Services------------------------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Front-end Developer</h2>
+                <p>Proficient in frontend technologies and passionate about creating user-friendly and visually appealing web applications.
+                    Strong knowledge of HTML, CSS, JavaScript, Bootstrap, Tailwind, ReactJs and NextJS.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-node-js"></i>
+                <h2>Back-end Developer</h2>
+                <p>In the backend realm, I specialize in Node.js, 
+                    utilizing its powerful runtime environment to build robust and scalable server-side applications.
+                     <!-- I also have a strong command of Next.js, enabling me to create efficient and SEO-friendly React applications.
+                      This combination of technologies empowers me to develop full-fledged web applications with a seamless user experience. -->
+                    </p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database</h2>
+                <p> In terms of databases, I am proficient in MongoDB, 
+                    employing its robust features to design and manage data structures effectively.</p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------------Portfolio------------------------------ -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/img/portweb.jpg" alt="">
+                <div class="layer">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>Throughout my skills showcasing my ability to develop innovative and interactive user interfaces.
+                    </p>
+                    <a href="https://github.com/Vermabhavna/Project/tree/main/Bhavna" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/img/ecomm.webp" alt="">
+                <div class="layer">
+                    <h3>Ecommerce Website</h3>
+                    <p>I've had the privilege of working on a diverse range of projects,My problem-solving skills approach have contributed to successful outcomes.
+                    </p>
+                    <a href="https://github.com/Vermabhavna/Project/tree/main/training%20project" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/img/lashyy.jpg" alt="">
+                <div class="layer">
+                    <h3>Landing Page </h3>
+                    <p>The landing page is designed to be responsive, meaning it adapts and looks great.
+                    </p>
+                    <a href="https://github.com/Vermabhavna/Project/tree/main/Website" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btnn">See more</a>
+    </div>
+</div>
+
+
+<!-- --------------contact----------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>bhavnabverma@gmail.com</p>
+                <p><i class="fa-brands fa-whatsapp"></i></i>+91-7737856504</p>
+                <div class="social-iconss">
+                    <a href="https://instagram.com/verma_bhanu_a?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/bhavna-verma-a222b2220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="/img/bhavnaNew.pdf" download class="btnn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btnn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Bhavna. Made by Bhavna Verma</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+           sidemenu.style.right = "0"; 
+        }
+        function closemenu(){
+           sidemenu.style.right = "-200px"; 
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyiXfU-Y7qMC5nFiStnQ9mvTGbBGq_C-Td0zZJizMPBemAcQ3lj6VrtWOvlzdns9N30/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{msg.innerHTML="Messae sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },3000)
+        form.reset();
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
